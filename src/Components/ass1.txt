@@ -1,0 +1,35 @@
+###React.js Assignment: `useState` and `useEffect` Mastery
+Instructions:
+
+In this assignment, you will work with React's `useState` and `useEffect` hooks to build a functional component that manages state and handles side effects. This assignment is designed to help you gain proficiency in using these essential React hooks.
+Task 1: Project Setup
+1. Create a new React.js project using `create-react-app` or your preferred setup method.
+
+Task 2: Component Creation
+2. Create a functional component called `Counter` that will serve as the core of this assignment. This component should be responsible for displaying a count and allowing users to increment or decrement it.
+Task 3: State Management with `useState`
+3. Within the `Counter` component, use the `useState` hook to manage the count state. Initialize the count to 0.
+
+4. Display the current count on the screen.
+Task 4: Increment and Decrement Buttons
+
+5. Add two buttons to the `Counter` component - one for incrementing the count and another for decrementing it.
+
+6. Implement the click handlers for these buttons to update the count using the `setState` function returned by the `useState` hook.
+Task 5: Side Effects with `useEffect`
+
+7. Create a functional component called `EffectDemo`. This component should render a message.
+
+8. Use the `useEffect` hook within the `EffectDemo` component to change the message when the count in the `Counter` component reaches a specific threshold. For example, if the count is 10 or higher, display a message like "Count is high!".
+
+Task 6: Lifecycle Effects
+
+9. Utilize `useEffect` to simulate the lifecycle methods `componentDidMount` and `componentDidUpdate`. Fetch data from a mock API (you can use a local JSON file for this) and display it in the `Counter` component when it first mounts and whenever the count changes.
+Task 7: Styling
+10. Style your React application to make it visually appealing. You can use CSS, a CSS framework, or a styling library like styled-components.
+
+Task 8: Bonus Challenge (Optional)
+11. Implement a reset button in the `Counter` component that sets the count back to 0 and clears any displayed messages in the `EffectDemo` component.
+
+Submission:
+Submit your React.js project on your preferred code hosting platform (e.g., GitHub, GitLab) and provide a link to your repository for evaluation.
