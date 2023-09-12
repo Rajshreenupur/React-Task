@@ -20,7 +20,7 @@ function Counter() {
 
   useEffect(() => {
     // Simulate an API call to fetch data from the JSON file
-    fetch('/data.json')
+    fetch('/Data.json')
       .then((response) => response.json())
       .then((json) => {
         setData(json.data);

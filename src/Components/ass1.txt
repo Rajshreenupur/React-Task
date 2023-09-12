@@ -1,10 +1,8 @@
-###React.js Assignment: `useState` and `useEffect` Mastery
+React.js Assignment: `useState` and `useEffect` Mastery
 Instructions:
-
 In this assignment, you will work with React's `useState` and `useEffect` hooks to build a functional component that manages state and handles side effects. This assignment is designed to help you gain proficiency in using these essential React hooks.
 Task 1: Project Setup
 1. Create a new React.js project using `create-react-app` or your preferred setup method.
-
 Task 2: Component Creation
 2. Create a functional component called `Counter` that will serve as the core of this assignment. This component should be responsible for displaying a count and allowing users to increment or decrement it.
 Task 3: State Management with `useState`
@@ -23,7 +21,6 @@ Task 5: Side Effects with `useEffect`
 8. Use the `useEffect` hook within the `EffectDemo` component to change the message when the count in the `Counter` component reaches a specific threshold. For example, if the count is 10 or higher, display a message like "Count is high!".
 
 Task 6: Lifecycle Effects
-
 9. Utilize `useEffect` to simulate the lifecycle methods `componentDidMount` and `componentDidUpdate`. Fetch data from a mock API (you can use a local JSON file for this) and display it in the `Counter` component when it first mounts and whenever the count changes.
 Task 7: Styling
 10. Style your React application to make it visually appealing. You can use CSS, a CSS framework, or a styling library like styled-components.
@@ -33,3 +30,74 @@ Task 8: Bonus Challenge (Optional)
 
 Submission:
 Submit your React.js project on your preferred code hosting platform (e.g., GitHub, GitLab) and provide a link to your repository for evaluation.
+
+
+
+
+
+
+React.js Assignment: Mastering `useRef`
+Instructions:
+
+In this assignment, you will explore and practice the `useRef` hook in React. `useRef` is a versatile hook that can be used for various purposes, including accessing DOM elements and persisting values across renders without causing re-renders. This assignment is designed to help you become proficient in using `useRef` effectively.
+Task 1: Project Setup
+
+1. Create a new React.js project using `create-react-app` or your preferred setup method.
+Task 2: DOM Interaction with `useRef`
+2. Create a functional component called `DOMManipulator`.
+
+3. Within the `DOMManipulator` component, use the `useRef` hook to access and manipulate a DOM element. You can choose any HTML element (e.g., a button, input, or div).
+
+4. Implement functionality such as changing the color, size, or visibility of the selected DOM element based on user interactions (e.g., button clicks).
+Task 3: Refs for Form Input
+
+5. Create a functional component called `FormInput`.
+
+6. Inside the `FormInput` component, use the `useRef` hook to create a reference for an input element.
+
+7. Implement a feature that focuses on the input element when a button is clicked.
+Task 4: Persistence with `useRef`
+
+8. Create a functional component called `ValuePersistence`.
+
+9. Use the `useRef` hook to persist a value (e.g., a counter) across renders without causing re-renders when the value changes.
+
+10. Implement a button that increments the persisted value when clicked.
+Task 5: Bonus Challenge (Optional)
+
+11. Create a functional component that utilizes the `useRef` hook to build a simple timer. The timer should start when the component mounts and display the elapsed time. Implement start, pause, and reset buttons for the timer.
+Task 6: Styling
+
+12. Style your React application to make it visually appealing. You can use CSS, a CSS framework, or a styling library like styled-components.
+
+Submission:
+Submit your React.js project on your preferred code hosting platform (e.g., GitHub, GitLab) and provide a link to your repository for evaluation.
+
+
+
+React.js Assignment: `useContext` and API Integration
+Instructions:
+In this assignment, you will learn to use the `useContext` hook in React to manage global state and fetch data from an external API. We'll be using the JSONPlaceholder API to fetch user data.
+
+Task 1: Project Setup
+1. Create a new React.js project using `create-react-app` or your preferred setup method.
+Task 2: Context Setup
+2. Set up a `UserContext` using the `createContext` function. This context will be responsible for managing user data obtained from the API.
+Task 3: API Integration
+3. Fetch user data from the JSONPlaceholder API (`https://jsonplaceholder.typicode.com/users`) and store it in the `UserContext`. You can use the `useEffect` hook for this purpose.
+Task 4: Components and Context Provider
+4. Create a functional component called `UserList` that consumes the `UserContext`. Display the list of users obtained from the API.
+
+5. Create a context provider component, `UserProvider`, which wraps the entire application and provides the user data to the context.
+Task 5: Display User Data
+6. Within the `UserList` component, map over the user data obtained from the context and display it in a list format. Include at least the user's name, email, and phone number.
+
+Task 6: Styling
+7. Style your React application to make it visually appealing. You can use CSS, a CSS framework, or a styling library like styled-components.
+Task 7: Bonus Challenge (Optional)
+8. Create a component called `UserDetails` that allows users to click on a user's name to view additional details about that user, such as their address and company information.
+Task 8: Error Handling
+9. Implement error handling for failed API requests. Display an error message to the user if the API call fails.
+Submission:
+Submit your React.js project on your preferred code hosting platform (e.g., GitHub, GitLab) and provide a link to your repository for evaluation.
+
